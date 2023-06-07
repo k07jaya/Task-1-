@@ -1,0 +1,88 @@
+<style>
+  img {
+    opacity: 0.95;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #home::before {
+    content: "";
+    position: absolute;
+
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+  }
+
+  #ho h1 {
+    color: rgb(246, 246, 249);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+
+  }
+
+  #ho p {
+    color: rgb(246, 247, 249);
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+  }
+
+  #aur h5 {
+    color: rgb(252, 253, 253);
+    font-size: 2.5rem;
+
+    font-family: 'Bree Serif', serif;
+
+  }
+
+  #aur p {
+    color: rgb(246, 248, 249);
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+  }
+
+  #home h1 {
+    color: rgb(237, 236, 245);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+  }
+
+  #home p {
+    color: rgb(253, 253, 252);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+  }
+
+  .bt {
+    padding: 6px 20px;
+    border: 2px solid rgb(248, 252, 249);
+    background-color: rgb(31, 4, 71);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .btnf {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(247, 253, 244);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+</style>
